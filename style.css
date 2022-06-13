@@ -11,6 +11,8 @@
 .welcome{
     background: url(./img/MoGo_FREE_Template_by_Laaqiq_01.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 28px;
 }
 
 .welcome-container{
@@ -90,7 +92,7 @@
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 72px;
-    line-height: 86px;
+    line-height: 70px;
     color: #ffffff;
 }
 
@@ -125,4 +127,61 @@
     height: 40px;
     color: #ffffff;
     background: transparent;
+    cursor: pointer;
+}
+
+.welcome__intro{
+    display: flex;
+    margin-top: 157px;
+    justify-content: space-between
+}
+
+.welcome__intro-button{
+    width: 280px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    text-align: start;
+    opacity: 50%;
+}
+
+.welcome-button__line{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+}
+
+.welcome-button__line::after{
+    content: '';
+    display: block;
+    background: #f38181;
+    width: 0%;
+    height: 3px;
+    transition: .5s ease-in-out; 
+}
+
+.welcome__intro-button:hover{
+    opacity: 1;
+}
+
+.welcome__intro-button:hover .welcome-button__line::after{
+    width: 100%;
+}
+
+.welcome-button-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.welcome-button-strong{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
 }
