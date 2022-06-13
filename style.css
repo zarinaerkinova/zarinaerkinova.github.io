@@ -7,3 +7,74 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+.welcome{
+    background: url(./img/MoGo_FREE_Template_by_Laaqiq_01.jpg);
+    background-repeat: no-repeat;
+}
+
+.welcome-container{
+    width: 1200px;
+    margin: auto;
+}
+
+.welcome-nav{
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 164px;
+}
+
+.welcome__logo{
+    display: block;
+    margin-right: 495px;
+}
+
+.welcome__links{
+    display: flex;
+    width: 489px;
+    justify-content: space-between;
+    margin-right: 52px;
+    margin-top: 12px;
+}
+
+.welcome__icons{
+    display: flex;
+}
+
+.welcome__link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.welcome__link::after{
+    content: '';
+    display: block;
+    background: #fce38a;
+    width: 0%;
+    height: 3px;
+    margin-top: 12px;
+    transition: .3s;
+}
+
+.welcome__link:hover{
+    color: #fce38a;
+}
+
+.welcome__link:hover::after{
+    width: 100%;
+}
+
+.welcome__icon__first{
+    display: block;
+    margin-right: 42px;
+}
+
+.welcome__icon{
+    color: #ffffff;
+    font-size: 15px;
+}
