@@ -78,3 +78,51 @@
     color: #ffffff;
     font-size: 15px;
 }
+
+.welcome__title{
+    width: 820px;
+    margin: auto;
+    text-align: center;
+}
+
+.welcome__title__heading2{
+    margin-bottom: 43px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    color: #ffffff;
+}
+
+.welcome__title__heading1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 140px;
+    color: #ffffff; 
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.welcome__title__heading1::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 73px;
+}
+
+.welcome__title__button{
+    padding: 10px 29px 12px 30px;
+    border: 3px solid #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    width: 160px;
+    height: 40px;
+    color: #ffffff;
+    background: transparent;
+}
